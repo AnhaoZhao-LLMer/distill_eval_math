@@ -1,0 +1,27 @@
+global:
+  enable_thinking: false
+  temperature: 0.6
+  top_p: 0.95
+  top_k: 20
+  max_new_tokens: 8192
+  tensor_parallel_size: 1
+  gpu_memory_utilization: 0.85
+
+datasets:
+  - name: gsm8k
+    path: data/gsm8k_test.parquet
+    n: 3
+    k: 3
+  - name: math500
+    path: data/math500_test.parquet
+    n: 3
+    k: 3
+  - name: amc23
+    path: data/amc23_test.parquet
+    n: 5
+    k: 5
+  - name: aime24
+    path: data/aime24_test.parquet
+    n: 5
+    k: 5
+

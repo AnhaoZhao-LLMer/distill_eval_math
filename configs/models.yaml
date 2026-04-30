@@ -1,0 +1,83 @@
+owner: plclmezboss
+models:
+  - alias: student_forward_student0.6B_teacher4B_maxlen128
+    repo_id: plclmezboss/student_forward_student0.6B_teacher4B_maxlen128
+    scheme: student_forward
+    teacher_size: 4B
+    maxlen: 128
+  - alias: student_forward_student0.6B_teacher4B_maxlen4096
+    repo_id: plclmezboss/student_forward_student0.6B_teacher4B_maxlen4096
+    scheme: student_forward
+    teacher_size: 4B
+    maxlen: 4096
+  - alias: student_forward_student0.6B_teacher8B_maxlen128
+    repo_id: plclmezboss/student_forward_student0.6B_teacher8B_maxlen128
+    scheme: student_forward
+    teacher_size: 8B
+    maxlen: 128
+  - alias: student_forward_student0.6B_teacher8B_maxlen4096
+    repo_id: plclmezboss/student_forward_student0.6B_teacher8B_maxlen4096
+    scheme: student_forward
+    teacher_size: 8B
+    maxlen: 4096
+  - alias: student_reverse_student0.6B_teacher4B_maxlen128
+    repo_id: plclmezboss/student_reverse_student0.6B_teacher4B_maxlen128
+    scheme: student_reverse
+    teacher_size: 4B
+    maxlen: 128
+  - alias: student_reverse_student0.6B_teacher4B_maxlen4096
+    repo_id: plclmezboss/student_reverse_student0.6B_teacher4B_maxlen4096
+    scheme: student_reverse
+    teacher_size: 4B
+    maxlen: 4096
+  - alias: student_reverse_student0.6B_teacher8B_maxlen128
+    repo_id: plclmezboss/student_reverse_student0.6B_teacher8B_maxlen128
+    scheme: student_reverse
+    teacher_size: 8B
+    maxlen: 128
+  - alias: student_reverse_student0.6B_teacher8B_maxlen4096
+    repo_id: plclmezboss/student_reverse_student0.6B_teacher8B_maxlen4096
+    scheme: student_reverse
+    teacher_size: 8B
+    maxlen: 4096
+  - alias: teacher_forward_student0.6B_teacher4B_maxlen128
+    repo_id: plclmezboss/teacher_forward_student0.6B_teacher4B_maxlen128
+    scheme: teacher_forward
+    teacher_size: 4B
+    maxlen: 128
+  - alias: teacher_forward_student0.6B_teacher4B_maxlen4096
+    repo_id: plclmezboss/teacher_forward_student0.6B_teacher4B_maxlen4096
+    scheme: teacher_forward
+    teacher_size: 4B
+    maxlen: 4096
+  - alias: teacher_forward_student0.6B_teacher8B_maxlen128
+    repo_id: plclmezboss/teacher_forward_student0.6B_teacher8B_maxlen128
+    scheme: teacher_forward
+    teacher_size: 8B
+    maxlen: 128
+  - alias: teacher_forward_student0.6B_teacher8B_maxlen4096
+    repo_id: plclmezboss/teacher_forward_student0.6B_teacher8B_maxlen4096
+    scheme: teacher_forward
+    teacher_size: 8B
+    maxlen: 4096
+  - alias: teacher_reverse_student0.6B_teacher4B_maxlen128
+    repo_id: plclmezboss/teacher_reverse_student0.6B_teacher4B_maxlen128
+    scheme: teacher_reverse
+    teacher_size: 4B
+    maxlen: 128
+  - alias: teacher_reverse_student0.6B_teacher4B_maxlen4096
+    repo_id: plclmezboss/teacher_reverse_student0.6B_teacher4B_maxlen4096
+    scheme: teacher_reverse
+    teacher_size: 4B
+    maxlen: 4096
+  - alias: teacher_reverse_student0.6B_teacher8B_maxlen128
+    repo_id: plclmezboss/teacher_reverse_student0.6B_teacher8B_maxlen128
+    scheme: teacher_reverse
+    teacher_size: 8B
+    maxlen: 128
+  - alias: teacher_reverse_student0.6B_teacher8B_maxlen4096
+    repo_id: plclmezboss/teacher_reverse_student0.6B_teacher8B_maxlen4096
+    scheme: teacher_reverse
+    teacher_size: 8B
+    maxlen: 4096
+
