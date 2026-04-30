@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+export SWANLAB_API_KEY="yjDwkiQCvmAWAwT877Tdp" 
+export MODELSCOPE_API_TOKEN="ms-55b889c4-1a66-4ae4-9683-ef89ee8f61c5"
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 cd "${REPO_ROOT}"
