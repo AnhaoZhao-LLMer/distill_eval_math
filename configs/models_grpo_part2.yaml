@@ -1,0 +1,42 @@
+owner: plclmezboss
+models:
+  - alias: grpo_teacher_forward_studentqwen3_0.6b_base_teacherqwen3_4b_maxlen128
+    repo_id: plclmezboss/grpo_teacher_forward_studentqwen3_0.6b_base_teacherqwen3_4b_maxlen128
+    scheme: teacher_forward
+    teacher_size: 4B
+    maxlen: 128
+  - alias: grpo_teacher_forward_studentqwen3_0.6b_base_teacherqwen3_4b_maxlen4096
+    repo_id: plclmezboss/grpo_teacher_forward_studentqwen3_0.6b_base_teacherqwen3_4b_maxlen4096
+    scheme: teacher_forward
+    teacher_size: 4B
+    maxlen: 4096
+  - alias: grpo_teacher_forward_studentqwen3_0.6b_base_teacherqwen3_8b_maxlen128
+    repo_id: plclmezboss/grpo_teacher_forward_studentqwen3_0.6b_base_teacherqwen3_8b_maxlen128
+    scheme: teacher_forward
+    teacher_size: 8B
+    maxlen: 128
+  - alias: grpo_base
+    repo_id: plclmezboss/grpo_base
+    scheme: base_grpo
+    teacher_size: none
+    maxlen: none
+  - alias: grpo_teacher_reverse_studentqwen3_0.6b_base_teacherqwen3_4b_maxlen128
+    repo_id: plclmezboss/grpo_teacher_reverse_studentqwen3_0.6b_base_teacherqwen3_4b_maxlen128
+    scheme: teacher_reverse
+    teacher_size: 4B
+    maxlen: 128
+  - alias: grpo_teacher_reverse_studentqwen3_0.6b_base_teacherqwen3_4b_maxlen4096
+    repo_id: plclmezboss/grpo_teacher_reverse_studentqwen3_0.6b_base_teacherqwen3_4b_maxlen4096
+    scheme: teacher_reverse
+    teacher_size: 4B
+    maxlen: 4096
+  - alias: grpo_teacher_reverse_studentqwen3_0.6b_base_teacherqwen3_8b_maxlen128
+    repo_id: plclmezboss/grpo_teacher_reverse_studentqwen3_0.6b_base_teacherqwen3_8b_maxlen128
+    scheme: teacher_reverse
+    teacher_size: 8B
+    maxlen: 128
+  - alias: grpo_teacher_reverse_studentqwen3_0.6b_base_teacherqwen3_8b_maxlen4096
+    repo_id: plclmezboss/grpo_teacher_reverse_studentqwen3_0.6b_base_teacherqwen3_8b_maxlen4096
+    scheme: teacher_reverse
+    teacher_size: 8B
+    maxlen: 4096
