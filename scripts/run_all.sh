@@ -8,7 +8,7 @@ REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 cd "${REPO_ROOT}"
 
 PYTHON_BIN="${PYTHON_BIN:-python3}"
-MODELS_CONFIG="${MODELS_CONFIG:-${REPO_ROOT}/configs/models.yaml}"
+MODELS_CONFIG="${MODELS_CONFIG:-${REPO_ROOT}/configs/models_grpo_all.yaml}"
 DATASETS_CONFIG="${DATASETS_CONFIG:-${REPO_ROOT}/configs/datasets.yaml}"
 MODEL_ROOT="${MODEL_ROOT:-${REPO_ROOT}/models}"
 RESULTS_ROOT="${RESULTS_ROOT:-${REPO_ROOT}/results}"
